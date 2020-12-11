@@ -1,7 +1,7 @@
 #background-One {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     color: white;
 }
 
@@ -11,6 +11,8 @@
     justify-content: space-around;
     color: white;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 img {
@@ -23,6 +25,23 @@ img {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#contentPageOne {
+    margin: 80px;
+    color: white;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#contentPageOne h1 {
+    padding: 20px;
+    font-size: 40px;
+}
+
+#contentPageOne h3 {
+    padding: 20px;
+    font-size: 30px;
 }
 
 #two {
