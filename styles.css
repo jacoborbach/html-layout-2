@@ -131,3 +131,10 @@ button {
     background-size: cover;
 }
 
+nav > a {
+    padding: 10px;
+}
+
+#logo {
+    margin-left: 100px;
+}
